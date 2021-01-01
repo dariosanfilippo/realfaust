@@ -14,7 +14,7 @@
 //    times,
 //    div,
 //    plus,
-//    munus,
+//    minus,
 //    rem,
 //    mod,
 //    float_mod,
@@ -43,10 +43,11 @@ declare name "Real Faust Library";
 declare author "Dario Sanfilippo";
 declare copyright "Copyright (c) 2019-2020, Dario Sanfilippo <sanfilippo.dario
       at gmail dot com>";
-declare version "0.0.0";
+declare version "1.0.1";
 declare license "GPLv3.0";
 
 ma = library("maths.lib");
+
 
 
 // =============================================================================
