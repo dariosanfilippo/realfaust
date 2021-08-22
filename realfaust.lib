@@ -58,7 +58,7 @@ ma = library("maths.lib");
 // -----------------------------------------------------------------------------
 // Floating-point limit constants and clipping function.
 //
-MAX = ma.INFINITY;
+MAX = ma.MAX;
 MIN = ma.MIN;
 E = ma.EPSILON;
 clip(l, h, x) = max(l, min(h, x));
